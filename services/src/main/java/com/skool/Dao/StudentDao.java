@@ -1,5 +1,7 @@
-package com.skool.Dao;
+package com.skool.dao;
+import org.springframework.stereotype.Component;
 
+@Component
 public class StudentDao {
     private final long id;
     private final String content;
